@@ -1,0 +1,241 @@
+body{
+    width: auto;
+    height: auto;
+    overflow:visible;
+    display:block;
+    background-color: #999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display:flex;
+    flex-shrink: 1;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+    margin-bottom: 1rem;
+    background-color: #222;
+}
+
+.logo {
+    display:flex;
+    height:50px;
+    align-items:center;
+}
+
+.logo img{
+    width: 80%;
+    height:33%;
+    margin-right:0px;
+}
+ 
+.nav-links{
+    display:flex;
+    color:white; 
+    padding-right: 205px;
+}
+
+.nav-links a{
+    padding: 0.5em 1em 0.5em 1em;
+    margin-right:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+   
+.logo .icons {
+        display:flex;
+}
+
+.logo .icons .material-icons{
+    font-size: 30px;
+    color: springgreen;
+}
+
+#gallery .content-graphic-one i{
+    font-size: 30px;
+    color: springgreen;
+    position: absolute;
+}
+
+#gallery {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+ }
+
+.content-graphic-one{
+    height:75vh;
+    background: url("https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h1e/h7b/9420907315230/A-3840x1400-desktop-Vday2020.jpg");
+    background-size: cover;
+    background-position:center bottom;
+    margin-bottom: 10px;
+}
+
+
+#gallery .content-graphic-one h2{
+    color:#999;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size: 45px;
+}
+
+#gallery .content-graphic-one p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder;
+  
+}
+
+
+.content-graphic-two{
+    background: url("https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h54/hb4/9427370246174/Blade-15-CH3-Mercury-2-A-3840x1400-desktop.jpg");
+    height:75vh;
+    width:100%;
+    background-size: cover;
+    background-position:center bottom;
+    margin-bottom: 10px;
+}
+#gallery .content-graphic-two h2{
+    color:#999;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size: 45px;
+}
+
+#gallery .content-graphic-two p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+#gallery .content-graphic-two p i{
+    font-size: 30px;
+    color: springgreen;
+    position: absolute;
+}
+
+
+.content-graphic-three{
+    background:url("https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h84/h73/9417267150878/rzr-silver-A-3840x1400-desktop.jpg");
+    background-size: cover;
+    background-position:center bottom;
+    width:100%;
+    height:75vh;
+    margin-bottom: 10px;
+}
+
+#gallery .content-graphic-three h2{
+    color:#999;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size: 45px;
+}
+
+#gallery .content-graphic-three p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder;
+    line-height: 0px;
+}
+
+
+#gallery .content-graphic-three p i{
+    font-size: 30px;
+    color: springgreen;
+    position: absolute;
+    line-height:3px;
+}
+
+
+.column-images{
+        display:flex;
+        flex-wrap:wrap;
+  
+    }
+
+    .column-images > div{
+        flex: 1 1 49.5%;
+        height:500px;
+        margin-bottom: 10px;
+    }
+
+    .column-images > div >img{
+        height:100%;
+        width:100%;
+    }
+    
+    .column-images > h2{
+        columns: #999999;
+        text-align: center;
+        color:white;
+        position: absolute;
+    }
+
+
+   
+/*FOOTER CSS*/
+
+    .footer{
+       background:#222;
+       color:whitesmoke;
+       height:400px;
+       position: relative;
+       display:flex;
+       flex-direction: column;
+    }      
+    
+    .footer .footer-bottom{
+           color:#999;
+           height:50px;
+           width:100%;
+           text-align:center;
+           position:absolute;
+           bottom:0px;
+           left:0px;
+           padding-top:20px;
+        font-size:12px;
+       }
+
+   .footer .footer-content section h2{
+        color:white;
+        padding:10px;
+        margin-bottom: 0.5em;
+        font-size:16px;
+        font-weight: bold;
+        justify-content: space-around;
+        display:flex;
+    }
+    
+    .footer-content{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-evenly;
+            padding:3.5em;
+        }
+    .footer-content section{
+        display:flex;
+        flex-direction: column;
+    }
+        section a{
+            padding:0.3em;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            font-size:13px;
+            color: #999;
+        }
+.footer .footer-content section a i{
+    color:springgreen;
+    font-size:18px;
+}
+ 
